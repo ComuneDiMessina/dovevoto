@@ -1,0 +1,41 @@
+<?php
+/**
+ * Configurazione database e parametri applicazione.
+ * Copia questo file in config_db.php e adatta i valori alla tua installazione.
+ */
+
+// --- Database ---
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'nome_database');
+define('DB_USER', 'utente_db');
+define('DB_PASS', 'password_db');
+
+// --- Nomi delle tabelle (adattare ad ogni tornata elettorale) ---
+// Tabella anagrafica elettori: campi attesi: codFisc, cognome, nome, dataNascita, sezione
+define('TABLE_ANAGRAFICA', 'anagSezioniAAAA_ref');
+// Tabella sezioni: campi attesi: sezione, descrizione, ubicazione, latit, longi,
+//                               circoscrizione, note, accessibilita
+define('TABLE_SEZIONI', 'sezioniComuneAAAA');
+
+// --- Centro mappa (coordinate del comune) ---
+define('MAP_CENTER_LAT', 38.1938);
+define('MAP_CENTER_LON', 15.5540);
+define('MAP_ZOOM', 12);
+
+// --- Matomo Analytics (lasciare vuoto per disabilitare il tracciamento) ---
+define('MATOMO_SITE_ID', '');
+
+// --- Connessione PDO ---
+try {
+    $pdo = new PDO(
+        "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8mb4",
+        DB_USER,
+        DB_PASS
+    );
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
+} catch (PDOException $e) {
+    error_log("Errore connessione DB: " . $e->getMessage());
+    die("Errore di connessione al database. Contattare l'amministratore del sistema.");
+}
+?>

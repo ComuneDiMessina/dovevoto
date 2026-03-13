@@ -1,0 +1,23 @@
+# Configurazione locale (contiene credenziali DB)
+config_db.php
+
+# File di backup con credenziali
+*.bak
+
+# Certificati SSL (non appartengono al source code)
+*.crt
+*.key
+*.pem
+
+# File di test
+testRes.html
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
