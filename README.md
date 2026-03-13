@@ -107,5 +107,5 @@ Referente tecnico: Pietro Giglio — [p.giglio@comune.messina.it](mailto:p.gigli
 
 ## Licenza
 
-Questo software è rilasciato sotto licenza **EUPL-1.2** (European Union Public Licence).
-È possibile utilizzarlo, modificarlo e redistribuirlo nel rispetto dei termini della licenza, compatibile con il [Catalogo del riuso](https://developers.italia.it/it/riuso) di Developers Italia.
+Questo software è rilasciato sotto licenza **PolyForm Noncommercial 1.0.0**
+
