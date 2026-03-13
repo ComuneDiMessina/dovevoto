@@ -1,0 +1,111 @@
+publiccodeYmlVersion: 0.5.0
+name: Dove voto?
+url: https://github.com/ComuneDiMessina/dovevoto/
+softwareVersion: "0.1"
+releaseDate: 2026-03-13
+platforms:
+  - web
+organisation:
+  uri: urn:it:c_f158:comune:dovevoto
+  name: Comune di Messina
+developmentStatus: beta
+softwareType: standalone/web
+description:
+  en:
+    shortDescription: "Official Messina Municipality app: find your polling station
+      via Tax Code with interactive maps and GPS navigation."
+    longDescription: >-
+      Dove Voto is the official web application developed by the Municipality of
+      Messina to help citizens locate their assigned polling station. By
+      entering their Italian Tax Code (Codice Fiscale), users can instantly find
+      the address of their voting section and view it on an interactive map.
+
+
+      Key Features:
+
+
+      Polling station lookup via Tax Code.
+
+
+      Interactive map and GPS navigation to the location.
+
+
+      Mobile-friendly interface for on-the-go access.
+
+
+      Official data provided by the Municipality of Messina.
+
+
+      This project is part of the digital transformation initiative of the City
+      of Messina, aimed at improving public services and accessibility during
+      election periods.
+
+
+      Technical Details:
+
+      This repository contains the source code for the platform, developed and
+      maintained by the Digital Transition Department (Servizio Transizione
+      Digitale) of the City of Messina.
+    features:
+      - Ricerca sezione elettorale
+  it-IT:
+    localisedName: Dove voto ?
+    shortDescription: Applicazione web per la ricerca della propria sezione
+      elettorale con esplorazione di tutte le sezioni comunali.
+    longDescription: >-
+      Dove Voto - Comune di Messina
+
+
+      Dove Voto è l'applicazione web ufficiale sviluppata dal Comune di Messina
+      per aiutare i cittadini a individuare il proprio seggio elettorale.
+      Inserendo il proprio Codice Fiscale, gli utenti possono trovare
+      istantaneamente l'indirizzo della propria sezione elettorale e
+      visualizzarlo su una mappa interattiva.
+
+
+      Caratteristiche principali:
+
+
+      Ricerca del seggio elettorale tramite Codice Fiscale.
+
+
+      Mappa interattiva e navigazione GPS verso la sede.
+
+
+      Interfaccia ottimizzata per dispositivi mobili per l'accesso in mobilità.
+
+
+      Dati ufficiali forniti dal Comune di Messina.
+
+
+      Questo progetto fa parte dell'iniziativa di transizione digitale del
+      Comune di Messina, volta a migliorare i servizi pubblici e l'accessibilità
+      durante i periodi elettorali.
+
+
+      Dettagli Tecnici:
+
+      Questo repository contiene il codice sorgente della piattaforma,
+      sviluppata e mantenuta dal Servizio Transizione Digitale del Comune di
+      Messina.
+    features:
+      - Ricerca sezione elettorale
+      - Esplorazione sezioni elettorali del territorio
+    screenshots:
+      - https://raw.githubusercontent.com/ComuneDiMessina/dovevoto/refs/heads/main/immagini/schermata1.png
+      - https://raw.githubusercontent.com/ComuneDiMessina/dovevoto/refs/heads/main/immagini/schermata2.png
+      - https://raw.githubusercontent.com/ComuneDiMessina/dovevoto/refs/heads/main/immagini/schermata3.png
+      - https://raw.githubusercontent.com/ComuneDiMessina/dovevoto/refs/heads/main/immagini/schermata4.png
+legal:
+  license: PolyForm-Noncommercial-1.0.0
+maintenance:
+  type: internal
+  contacts:
+    - name: Pietro Giglio
+      email: p.giglio@comune.messina.it
+      phone: "0907722102"
+      affiliation: Comune di Messina
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it-IT
