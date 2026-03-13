@@ -1,6 +1,9 @@
 # Configurazione locale (contiene credenziali DB)
 config_db.php
 
+# Dump DB specifico dell'installazione (contiene nomi utente e tabelle locali)
+elezioniDoveVoto.sql
+
 # File di backup con credenziali
 *.bak
 
